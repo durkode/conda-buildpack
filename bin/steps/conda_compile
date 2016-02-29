@@ -29,4 +29,4 @@ fi
 conda clean -pt --yes > /dev/null
 rm -rf ~/.heroku/miniconda/pkgs
 rm -rf ~/.heroku/miniconda/lib
-rm -rf ~/.heroku/python/lib/python3.4
+rm -rf ~/.heroku/miniconda
