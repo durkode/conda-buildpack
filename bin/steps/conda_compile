@@ -26,6 +26,6 @@ if [ -f conda-requirements.txt ]; then
 fi
 
 # Clean up the installation environment .
-#conda clean -pt --yes > /dev/null
-#rm -rf ~/.heroku/miniconda/pkgs
-#rm -rf ~/.heroku/miniconda/lib
+conda clean -pt --yes > /dev/null
+rm -rf ~/.heroku/miniconda/pkgs
+rm -rf ~/.heroku/miniconda/lib
